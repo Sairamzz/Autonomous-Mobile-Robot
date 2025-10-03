@@ -108,3 +108,7 @@ This project integrates several existing ROS 2 packages alongside our own code:
 
 These were included in the workspace for convenience, and all rights remain with their original authors.
 Our main contribution is the custom ```my_bot``` package, which defines the robot description, launch files, and navigation configurations, and integrates the above packages into a working AMR system.
+
+⚠️ Note: This repository includes third-party packages 
+(```serial_motor_demo```, ```sllidar_ros2```, ```joy_tester```, ```my_bot```) which are used under their respective licenses. Please refer to their individual repositories for license details.
+
