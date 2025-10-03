@@ -4,9 +4,11 @@ This project focuses on the design and implementation of an Autonomous Mobile Ro
 
 * [Objective](#Objective)
 * [Features](#Features)
+* [Robot Design](#RobotDesign)
 * [Implementation](#Implementation)
 * [Results](#Results)
-* [How to run](#Howtorun)
+* [Contributors](#Contributors)
+* [Credits](#Credits)
 
 ## Objective:
 
@@ -40,27 +42,26 @@ The design emphasizes modularity, sensor mounting flexibility, and robust struct
 ## Implementation:
 
 The implementation followed a stepwise approach:
-
 1. Simulation in Gazebo
-  - Built an indoor environment with obstacles.
-  - Deployed TurtleBot3 in the world to test SLAM and navigation pipelines.
+    - Built an indoor environment with obstacles.
+    - Deployed the custom robot model in simulation to test SLAM and navigation pipelines.
 
 2. Mapping & Localization
-  - Used Cartographer for online SLAM to build occupancy grid maps.
-  - Implemented AMCL for probabilistic localization when using a pre-built map.
+    - Used Cartographer for online SLAM to build occupancy grid maps.
+    - Implemented AMCL for probabilistic localization when using a pre-built map.
 
 3. Path Planning
-  - Global planner: A* and NavFn to generate optimal paths on the occupancy grid.
-  - Local planner: DWB (Dynamic Window Approach) for real-time obstacle avoidance.
+    - Global planner: A* and NavFn to generate optimal paths on the occupancy grid.
+    - Local planner: DWB (Dynamic Window Approach) for real-time obstacle avoidance.
 
 4. Navigation
-  - ROS 2 Navigation2 stack configured for goal-driven and waypoint-based navigation.
-  - Tuned parameters for costmaps, inflation radius, and controller gains.
+    - ROS 2 Navigation2 stack configured for goal-driven and waypoint-based navigation.
+    - Tuned parameters for costmaps, inflation radius, and controller gains.
 
 5. Hardware Deployment
-  - Implemented the system on a custom-built robot platform.
-  - Integrated onboard sensors including LiDAR, IMU, and wheel encoders.
-  - Performed real-world navigation tasks in a lab environment, validating SLAM, localization, and navigation performance.
+    - Implemented the system on a custom-built robot platform.
+    - Integrated onboard sensors including LiDAR, IMU, and wheel encoders.
+    - Performed real-world navigation tasks in a closed environment, validating SLAM, localization, and navigation performance.
 
 ### Power Connections
 
