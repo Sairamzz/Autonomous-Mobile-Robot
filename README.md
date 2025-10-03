@@ -4,7 +4,7 @@ This project focuses on the design and implementation of an Autonomous Mobile Ro
 
 * [Objective](#Objective)
 * [Features](#Features)
-* [RobotDesign](#RobotDesign)
+* [Robot_Design](#RobotDesign)
 * [Implementation](#Implementation)
 * [Results](#Results)
 * [Contributors](#Contributors)
@@ -28,7 +28,7 @@ The objective of this project was to design a mobile robot that can map an envir
 
 <img width="961" height="460" alt="image" src="https://github.com/user-attachments/assets/38d0d95f-7cc0-408d-8647-b004f5624859" />
 
-## Robot Design:
+## Robot_Design:
 
 The robot used in this project was custom-designed to support onboard sensors, computation, and locomotion requirements.
 All CAD models and SolidWorks design files can be found in the Robot_Design folder of this repository.
