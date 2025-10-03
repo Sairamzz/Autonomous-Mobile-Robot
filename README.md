@@ -30,9 +30,7 @@ The objective of this project was to design a mobile robot that can map an envir
 
 ## Robot_Design:
 
-The robot used in this project was custom-designed to support onboard sensors, computation, and locomotion requirements.
-
-All CAD models and SolidWorks design files can be found in ```Robot Design``` folder in the repo.
+The robot used in this project was custom-designed to support onboard sensors, computation, and locomotion requirements. All CAD models and SolidWorks design files can be found in ```Robot Design``` folder in the repo.
 
 The design emphasizes modularity, sensor mounting flexibility, and robust structural support for indoor navigation tasks.
 
