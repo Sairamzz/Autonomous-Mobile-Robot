@@ -4,7 +4,7 @@ This project focuses on the design and implementation of an Autonomous Mobile Ro
 
 * [Objective](#Objective)
 * [Features](#Features)
-* [Robot Design](#RobotDesign)
+* [RobotDesign](#RobotDesign)
 * [Implementation](#Implementation)
 * [Results](#Results)
 * [Contributors](#Contributors)
