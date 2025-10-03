@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so" "TARGETS" "serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

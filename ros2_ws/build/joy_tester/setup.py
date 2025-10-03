@@ -1,1 +1,0 @@
-/home/saiubuntu/ros2_ws/joy_tester/setup.py
