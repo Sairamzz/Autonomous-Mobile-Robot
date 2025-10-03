@@ -1,0 +1,18 @@
+[6.272s] Invoking command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/my_bot PYTHONPATH=/home/saiubuntu/ros2_ws/build/serial_motor_demo/prefix_override:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/serial_motor_demo/build --no-deps symlink_data
+[9.203s] running develop
+[10.766s] running egg_info
+[10.769s] writing serial_motor_demo.egg-info/PKG-INFO
+[10.778s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[10.780s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[10.784s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[10.785s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[11.077s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[11.086s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[11.490s] running build_ext
+[11.492s] Creating /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[11.506s] Installing driver script to /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[11.509s] Installing gui script to /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[11.513s] 
+[11.514s] Installed /home/saiubuntu/ros2_ws/build/serial_motor_demo
+[11.515s] running symlink_data
+[11.859s] Invoked command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/my_bot PYTHONPATH=/home/saiubuntu/ros2_ws/build/serial_motor_demo/prefix_override:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/serial_motor_demo/build --no-deps symlink_data

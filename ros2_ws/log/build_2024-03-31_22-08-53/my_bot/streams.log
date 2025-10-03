@@ -1,0 +1,31 @@
+[0.332s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[1.349s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[1.380s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot
+[1.390s] -- Install configuration: ""
+[1.390s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config
+[1.402s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml
+[1.403s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.403s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description
+[1.403s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.404s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.419s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.419s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch
+[1.420s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.420s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds
+[1.457s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.458s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.459s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.459s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.460s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.460s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.461s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.461s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.462s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.462s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.463s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.463s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv
+[1.463s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.464s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.464s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.464s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.xml
+[1.471s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot

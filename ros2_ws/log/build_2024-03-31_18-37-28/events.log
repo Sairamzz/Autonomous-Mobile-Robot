@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000491] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000598] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.000668] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.071100] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.097978] (-) TimerEvent: {}
+[0.162070] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.163826] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/saiubuntu/ros2_ws/src/my_bot', '-DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/my_bot'], 'cwd': '/home/saiubuntu/ros2_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saiubuntu'), ('SSH_AGENT_PID', '1538'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/saiubuntu'), ('OLDPWD', '/home/saiubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1432'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'saiubuntu'), ('JOURNAL_STREAM', '8:43264'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saiubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1576,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1576'), ('INVOCATION_ID', 'a077b26f2b4545dcaa4343907e7b19fe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e08136d6_3c81_4c6e_9161_39ee3fa1a4d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.444'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saiubuntu/ros2_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.198417] (-) TimerEvent: {}
+[0.299981] (-) TimerEvent: {}
+[0.401911] (-) TimerEvent: {}
+[0.503038] (-) TimerEvent: {}
+[0.604225] (-) TimerEvent: {}
+[0.704517] (-) TimerEvent: {}
+[0.805244] (-) TimerEvent: {}
+[0.905663] (-) TimerEvent: {}
+[1.006091] (-) TimerEvent: {}
+[1.106664] (-) TimerEvent: {}
+[1.207118] (-) TimerEvent: {}
+[1.308042] (-) TimerEvent: {}
+[1.408538] (-) TimerEvent: {}
+[1.509204] (-) TimerEvent: {}
+[1.610076] (-) TimerEvent: {}
+[1.711096] (-) TimerEvent: {}
+[1.811559] (-) TimerEvent: {}
+[1.911965] (-) TimerEvent: {}
+[2.012794] (-) TimerEvent: {}
+[2.113524] (-) TimerEvent: {}
+[2.214489] (-) TimerEvent: {}
+[2.315500] (-) TimerEvent: {}
+[2.416412] (-) TimerEvent: {}
+[2.517217] (-) TimerEvent: {}
+[2.618163] (-) TimerEvent: {}
+[2.712456] (my_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot', 'build', '--build-base', '/home/saiubuntu/ros2_ws/build/my_robot/build', 'install', '--record', '/home/saiubuntu/ros2_ws/build/my_robot/install.log', '--install-scripts', '$base/lib/my_robot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/saiubuntu/ros2_ws/src/my_robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'saiubuntu', 'SSH_AGENT_PID': '1538', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/saiubuntu', 'OLDPWD': '/home/saiubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1432', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'saiubuntu', 'JOURNAL_STREAM': '8:43264', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saiubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1576,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1576', 'INVOCATION_ID': 'a077b26f2b4545dcaa4343907e7b19fe', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e08136d6_3c81_4c6e_9161_39ee3fa1a4d0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.444', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saiubuntu/ros2_ws/build/my_robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saiubuntu/ros2_ws/build/my_robot/prefix_override:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.718253] (-) TimerEvent: {}
+[2.818552] (-) TimerEvent: {}
+[2.902758] (my_robot) StdoutLine: {'line': b'running egg_info\n'}
+[2.903353] (my_robot) StdoutLine: {'line': b'creating ../../build/my_robot/my_robot.egg-info\n'}
+[2.903631] (my_robot) StdoutLine: {'line': b'writing ../../build/my_robot/my_robot.egg-info/PKG-INFO\n'}
+[2.904002] (my_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt\n'}
+[2.904220] (my_robot) StdoutLine: {'line': b'writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt\n'}
+[2.904419] (my_robot) StdoutLine: {'line': b'writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt\n'}
+[2.904525] (my_robot) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt\n'}
+[2.918842] (-) TimerEvent: {}
+[2.986825] (my_robot) StdoutLine: {'line': b"writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[3.019023] (-) TimerEvent: {}
+[3.048903] (my_robot) StdoutLine: {'line': b"reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[3.049772] (my_robot) StdoutLine: {'line': b"writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'\n"}
+[3.049965] (my_robot) StdoutLine: {'line': b'running build\n'}
+[3.050146] (my_robot) StdoutLine: {'line': b'running build_py\n'}
+[3.050325] (my_robot) StdoutLine: {'line': b'creating /home/saiubuntu/ros2_ws/build/my_robot/build\n'}
+[3.050467] (my_robot) StdoutLine: {'line': b'creating /home/saiubuntu/ros2_ws/build/my_robot/build/lib\n'}
+[3.050588] (my_robot) StdoutLine: {'line': b'creating /home/saiubuntu/ros2_ws/build/my_robot/build/lib/my_robot\n'}
+[3.050690] (my_robot) StdoutLine: {'line': b'copying my_robot/__init__.py -> /home/saiubuntu/ros2_ws/build/my_robot/build/lib/my_robot\n'}
+[3.050792] (my_robot) StdoutLine: {'line': b'running install\n'}
+[3.051635] (my_robot) StdoutLine: {'line': b'running install_lib\n'}
+[3.052787] (my_robot) StdoutLine: {'line': b'creating /home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot\n'}
+[3.052962] (my_robot) StdoutLine: {'line': b'copying /home/saiubuntu/ros2_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot\n'}
+[3.053473] (my_robot) StdoutLine: {'line': b'byte-compiling /home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot/__init__.py to __init__.cpython-38.pyc\n'}
+[3.055256] (my_robot) StdoutLine: {'line': b'running install_data\n'}
+[3.055488] (my_robot) StdoutLine: {'line': b'creating /home/saiubuntu/ros2_ws/install/my_robot/share/ament_index\n'}
+[3.055674] (my_robot) StdoutLine: {'line': b'creating /home/saiubuntu/ros2_ws/install/my_robot/share/ament_index/resource_index\n'}
+[3.055797] (my_robot) StdoutLine: {'line': b'creating /home/saiubuntu/ros2_ws/install/my_robot/share/ament_index/resource_index/packages\n'}
+[3.055922] (my_robot) StdoutLine: {'line': b'copying resource/my_robot -> /home/saiubuntu/ros2_ws/install/my_robot/share/ament_index/resource_index/packages\n'}
+[3.056024] (my_robot) StdoutLine: {'line': b'copying package.xml -> /home/saiubuntu/ros2_ws/install/my_robot/share/my_robot\n'}
+[3.056125] (my_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.057818] (my_robot) StdoutLine: {'line': b'Copying ../../build/my_robot/my_robot.egg-info to /home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages/my_robot-0.0.0-py3.8.egg-info\n'}
+[3.058804] (my_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[3.074575] (my_robot) StdoutLine: {'line': b"writing list of installed files to '/home/saiubuntu/ros2_ws/build/my_robot/install.log'\n"}
+[3.093766] (my_robot) CommandEnded: {'returncode': 0}
+[3.119470] (-) TimerEvent: {}
+[3.220225] (-) TimerEvent: {}
+[3.321108] (-) TimerEvent: {}
+[3.421914] (-) TimerEvent: {}
+[3.522940] (-) TimerEvent: {}
+[3.623700] (-) TimerEvent: {}
+[3.724441] (-) TimerEvent: {}
+[3.825373] (-) TimerEvent: {}
+[3.926395] (-) TimerEvent: {}
+[4.027408] (-) TimerEvent: {}
+[4.128147] (-) TimerEvent: {}
+[4.206940] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 0}
+[4.228405] (-) TimerEvent: {}
+[4.329338] (-) TimerEvent: {}
+[4.585558] (-) TimerEvent: {}
+[4.686483] (-) TimerEvent: {}
+[4.787518] (-) TimerEvent: {}
+[4.888517] (-) TimerEvent: {}
+[4.989573] (-) TimerEvent: {}
+[5.090521] (-) TimerEvent: {}
+[5.191599] (-) TimerEvent: {}
+[5.241266] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[5.291688] (-) TimerEvent: {}
+[5.392229] (-) TimerEvent: {}
+[5.493270] (-) TimerEvent: {}
+[5.594287] (-) TimerEvent: {}
+[5.695090] (-) TimerEvent: {}
+[5.795903] (-) TimerEvent: {}
+[5.896881] (-) TimerEvent: {}
+[5.997804] (-) TimerEvent: {}
+[6.098735] (-) TimerEvent: {}
+[6.199771] (-) TimerEvent: {}
+[6.300670] (-) TimerEvent: {}
+[6.401388] (-) TimerEvent: {}
+[6.502254] (-) TimerEvent: {}
+[6.559508] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[6.602681] (-) TimerEvent: {}
+[6.632259] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.703096] (-) TimerEvent: {}
+[6.803982] (-) TimerEvent: {}
+[6.891155] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.893557] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.904080] (-) TimerEvent: {}
+[7.004502] (-) TimerEvent: {}
+[7.105340] (-) TimerEvent: {}
+[7.108380] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.124275] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.124993] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.128640] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.205489] (-) TimerEvent: {}
+[7.206696] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[7.208305] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.289526] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.300630] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.301292] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.305874] (-) TimerEvent: {}
+[7.328283] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.406101] (-) TimerEvent: {}
+[7.443417] (my_bot) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.443642] (my_bot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.506209] (-) TimerEvent: {}
+[7.606515] (-) TimerEvent: {}
+[7.706930] (-) TimerEvent: {}
+[7.739600] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[7.807086] (-) TimerEvent: {}
+[7.907498] (-) TimerEvent: {}
+[7.956067] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.979571] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.981897] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.983410] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[7.990001] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.992381] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.994187] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[7.995038] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/saiubuntu/ros2_ws/build/my_bot\n'}
+[7.998695] (my_bot) CommandEnded: {'returncode': 0}
+[7.999514] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[8.001548] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saiubuntu/ros2_ws/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/home/saiubuntu/ros2_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saiubuntu'), ('SSH_AGENT_PID', '1538'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/saiubuntu'), ('OLDPWD', '/home/saiubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1432'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'saiubuntu'), ('JOURNAL_STREAM', '8:43264'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saiubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1576,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1576'), ('INVOCATION_ID', 'a077b26f2b4545dcaa4343907e7b19fe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e08136d6_3c81_4c6e_9161_39ee3fa1a4d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.444'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saiubuntu/ros2_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.007586] (-) TimerEvent: {}
+[8.040148] (my_bot) CommandEnded: {'returncode': 0}
+[8.060125] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[8.072292] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saiubuntu/ros2_ws/build/my_bot'], 'cwd': '/home/saiubuntu/ros2_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saiubuntu'), ('SSH_AGENT_PID', '1538'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/saiubuntu'), ('OLDPWD', '/home/saiubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1432'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'saiubuntu'), ('JOURNAL_STREAM', '8:43264'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saiubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1576,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1576'), ('INVOCATION_ID', 'a077b26f2b4545dcaa4343907e7b19fe'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e08136d6_3c81_4c6e_9161_39ee3fa1a4d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.444'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saiubuntu/ros2_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.082895] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.083184] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config\n'}
+[8.083369] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[8.083567] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[8.083750] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description\n'}
+[8.083858] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[8.083994] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[8.084133] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[8.084244] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch\n'}
+[8.084400] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[8.084533] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds\n'}
+[8.084666] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[8.084804] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[8.084941] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[8.085097] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[8.085225] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[8.085355] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[8.085487] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[8.085624] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[8.085787] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[8.085895] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[8.085996] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[8.086096] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[8.086196] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[8.086298] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[8.086399] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[8.086500] (my_bot) StdoutLine: {'line': b'-- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.xml\n'}
+[8.088047] (my_bot) CommandEnded: {'returncode': 0}
+[8.107774] (-) TimerEvent: {}
+[8.119062] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[8.119792] (-) EventReactorShutdown: {}

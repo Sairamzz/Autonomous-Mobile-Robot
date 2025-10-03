@@ -1,0 +1,124 @@
+[0.323s] Invoking command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[1.066s] [  2%] Built target serial_motor_demo_msgs__cpp
+[1.083s] [ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[1.199s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[1.222s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[1.242s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[1.254s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[1.261s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.322s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[1.345s] [ 76%] Built target serial_motor_demo_msgs
+[1.367s] [ 78%] Built target serial_motor_demo_msgs__py
+[1.525s] [ 87%] Built target serial_motor_demo_msgs__python
+[1.556s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[1.590s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[1.595s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.607s] Invoked command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[1.681s] Invoking command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs
+[1.690s] -- Install configuration: ""
+[1.713s] -- Execute custom install script
+[1.713s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[1.713s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[1.714s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[1.714s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[1.714s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[1.714s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[1.714s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[1.715s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[1.715s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[1.715s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[1.715s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h
+[1.716s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h
+[1.716s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h
+[1.716s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.717s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[1.717s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[1.718s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[1.718s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[1.718s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[1.719s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.719s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[1.720s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[1.720s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.721s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[1.721s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.721s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.722s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[1.722s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[1.723s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[1.723s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.724s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[1.724s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[1.724s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[1.725s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp
+[1.725s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[1.725s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[1.725s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[1.726s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp
+[1.726s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[1.726s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[1.727s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[1.727s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp
+[1.727s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[1.728s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp
+[1.728s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp
+[1.728s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.729s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[1.729s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[1.729s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[1.730s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[1.730s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[1.731s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py
+[1.731s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py
+[1.732s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[1.732s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[1.732s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[1.733s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.734s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.735s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.736s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so
+[1.736s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[1.736s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[1.737s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[1.737s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[1.737s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[1.738s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[1.738s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[1.739s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[1.739s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[1.739s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[1.740s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[1.740s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[1.740s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[1.741s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[1.741s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[1.741s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[1.742s] -- Symlinking: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[1.752s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[1.752s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[1.753s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.753s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.753s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.754s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.754s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.754s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.755s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[1.755s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[1.755s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[1.758s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[1.779s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[1.780s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[1.781s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[1.782s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[1.902s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[1.902s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.902s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.902s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.904s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[1.904s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.905s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[1.907s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.907s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.908s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[1.908s] -- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.912s] Invoked command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs

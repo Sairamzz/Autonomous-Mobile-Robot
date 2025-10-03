@@ -1,0 +1,15 @@
+[0.702s] Invoking command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake /home/saiubuntu/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/sllidar_ros2
+[1.154s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.215s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.804s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.619s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.669s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.930s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.307s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.973s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.315s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[7.515s] -- Configuring done
+[7.631s] -- Generating done
+[7.633s] -- Build files have been written to: /home/saiubuntu/ros2_ws/build/sllidar_ros2

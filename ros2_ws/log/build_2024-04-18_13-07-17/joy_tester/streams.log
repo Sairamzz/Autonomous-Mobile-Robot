@@ -1,0 +1,17 @@
+[1.351s] Invoking command in '/home/saiubuntu/ros2_ws/build/joy_tester': PYTHONPATH=/home/saiubuntu/ros2_ws/build/joy_tester/prefix_override:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/joy_tester/build --no-deps symlink_data
+[1.629s] running develop
+[1.781s] running egg_info
+[1.781s] writing joy_tester.egg-info/PKG-INFO
+[1.781s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[1.781s] writing entry points to joy_tester.egg-info/entry_points.txt
+[1.782s] writing requirements to joy_tester.egg-info/requires.txt
+[1.782s] writing top-level names to joy_tester.egg-info/top_level.txt
+[1.822s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[1.823s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[1.863s] running build_ext
+[1.864s] Creating /home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages/joy-tester.egg-link (link to .)
+[1.865s] Installing test_joy script to /home/saiubuntu/ros2_ws/install/joy_tester/lib/joy_tester
+[1.865s] 
+[1.865s] Installed /home/saiubuntu/ros2_ws/build/joy_tester
+[1.865s] running symlink_data
+[1.909s] Invoked command in '/home/saiubuntu/ros2_ws/build/joy_tester' returned '0': PYTHONPATH=/home/saiubuntu/ros2_ws/build/joy_tester/prefix_override:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/joy_tester/build --no-deps symlink_data

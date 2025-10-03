@@ -1,0 +1,52 @@
+[0.448s] Invoking command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/sllidar_ros2 -- -j8 -l8
+[1.784s] [ 10%] Built target sllidar_client
+[1.786s] [100%] Built target sllidar_node
+[1.798s] Invoked command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/sllidar_ros2 -- -j8 -l8
+[1.849s] Invoking command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/sllidar_ros2
+[1.860s] -- Install configuration: ""
+[1.874s] -- Execute custom install script
+[1.898s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[1.900s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[1.901s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[1.902s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[1.917s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.939s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[1.940s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.941s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.949s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.951s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[1.952s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[1.953s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.954s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[1.955s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[1.956s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[1.957s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[1.958s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.959s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[1.960s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.960s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.961s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.962s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[1.962s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[1.963s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.964s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.965s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.966s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.967s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.968s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.968s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.969s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.970s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.970s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.971s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.972s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.972s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.973s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.973s] -- Symlinking: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[2.007s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[2.007s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.008s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.008s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[2.009s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[2.009s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[2.012s] Invoked command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/sllidar_ros2

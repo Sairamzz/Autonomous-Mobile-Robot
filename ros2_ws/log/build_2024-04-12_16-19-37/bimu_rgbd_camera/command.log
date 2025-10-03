@@ -1,0 +1,2 @@
+Invoking command in '/home/saiubuntu/ros2_ws/build/bimu_rgbd_camera': /usr/bin/cmake /home/saiubuntu/ros2_ws/src/bimu_rgbd_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/bimu_rgbd_camera
+Invoked command in '/home/saiubuntu/ros2_ws/build/bimu_rgbd_camera' returned '1': /usr/bin/cmake /home/saiubuntu/ros2_ws/src/bimu_rgbd_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/bimu_rgbd_camera

@@ -1,0 +1,59 @@
+[0.166s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/saiubuntu/ros2_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/my_bot
+[5.241s] -- The C compiler identification is GNU 9.4.0
+[6.559s] -- The CXX compiler identification is GNU 9.4.0
+[6.632s] -- Check for working C compiler: /usr/bin/cc
+[6.890s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.893s] -- Detecting C compiler ABI info
+[7.108s] -- Detecting C compiler ABI info - done
+[7.123s] -- Detecting C compile features
+[7.124s] -- Detecting C compile features - done
+[7.128s] -- Check for working CXX compiler: /usr/bin/c++
+[7.206s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.207s] -- Detecting CXX compiler ABI info
+[7.289s] -- Detecting CXX compiler ABI info - done
+[7.300s] -- Detecting CXX compile features
+[7.300s] -- Detecting CXX compile features - done
+[7.328s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.443s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.443s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.739s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.956s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.979s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.981s] -- Added test 'lint_cmake' to check CMake code style
+[7.983s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.989s] -- Added test 'xmllint' to check XML markup files
+[7.992s] -- Configuring done
+[7.993s] -- Generating done
+[7.994s] -- Build files have been written to: /home/saiubuntu/ros2_ws/build/my_bot
+[7.998s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/saiubuntu/ros2_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/my_bot
+[8.001s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[8.039s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[8.072s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot
+[8.082s] -- Install configuration: ""
+[8.082s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config
+[8.083s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml
+[8.083s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[8.083s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description
+[8.083s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[8.083s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[8.083s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[8.083s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch
+[8.084s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[8.084s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds
+[8.084s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world
+[8.084s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[8.084s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[8.084s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[8.084s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[8.084s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.sh
+[8.085s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv
+[8.085s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.bash
+[8.085s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.sh
+[8.085s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh
+[8.085s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv
+[8.085s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv
+[8.085s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[8.085s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[8.086s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[8.086s] -- Installing: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.xml
+[8.088s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot

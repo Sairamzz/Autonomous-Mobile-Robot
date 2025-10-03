@@ -1,0 +1,62 @@
+[2.483s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[4.907s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[5.218s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot
+[5.255s] -- Install configuration: ""
+[5.265s] -- Execute custom install script
+[5.274s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[5.277s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml
+[5.279s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml
+[5.281s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[5.283s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/joystick.yaml
+[5.286s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[5.287s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[5.287s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+[5.287s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/obstacles_setup.rviz
+[5.287s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
+[5.288s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[5.296s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/camera.xacro
+[5.296s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/camera2.xacro
+[5.296s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/depth_camera.xacro
+[5.297s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[5.297s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[5.297s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros2.xacro
+[5.298s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[5.298s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/lidar2.xacro
+[5.299s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[5.299s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[5.300s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core2.xacro
+[5.306s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[5.314s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/joystick.launch.py
+[5.317s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[5.321s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[5.328s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/navigation_launch.py
+[5.333s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/online_async_launch.py
+[5.338s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[5.341s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[5.347s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/box_table_obstacles.world
+[5.349s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/closed_environment/model.config
+[5.361s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/closed_environment/model.sdf
+[5.362s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world
+[5.363s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+[5.363s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/sample_model.sdf
+[5.363s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/sample_model.world
+[5.364s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/trail_environment/Untitled/model.config
+[5.364s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/trail_environment/Untitled/model.sdf
+[5.365s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/trail_environment/model.config
+[5.365s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/trail_environment/sample_model.sdf
+[5.366s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[5.367s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[5.369s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[5.374s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[5.376s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.sh
+[5.379s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv
+[5.383s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.bash
+[5.387s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.sh
+[5.391s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh
+[5.392s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv
+[5.392s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv
+[5.452s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[5.460s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[5.463s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[5.469s] -- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.xml
+[5.489s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot

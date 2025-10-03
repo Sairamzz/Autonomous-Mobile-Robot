@@ -1,0 +1,521 @@
+[0.000000] (-) TimerEvent: {}
+[0.003050] (joy_tester) JobQueued: {'identifier': 'joy_tester', 'dependencies': OrderedDict()}
+[0.003877] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.004215] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.004406] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.004688] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.005982] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs')])}
+[0.006255] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.096637] (joy_tester) JobStarted: {'identifier': 'joy_tester'}
+[0.097990] (-) TimerEvent: {}
+[0.167134] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.198780] (-) TimerEvent: {}
+[0.227670] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.301471] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.305930] (-) TimerEvent: {}
+[0.403390] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.407196] (-) TimerEvent: {}
+[0.414387] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[0.421784] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs', '--', '-j8', '-l8'], 'cwd': '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saiubuntu'), ('SSH_AGENT_PID', '1579'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/saiubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'saiubuntu'), ('JOURNAL_STREAM', '8:44329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saiubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1617,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', '62eb1aca9f0244fabd796f861747f437'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/700acb4e_89e8_4564_a237_12c421292c8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy')]), 'shell': False}
+[0.509223] (-) TimerEvent: {}
+[0.612726] (-) TimerEvent: {}
+[0.716996] (-) TimerEvent: {}
+[0.821387] (-) TimerEvent: {}
+[0.928411] (-) TimerEvent: {}
+[1.030144] (-) TimerEvent: {}
+[1.136654] (-) TimerEvent: {}
+[1.238889] (-) TimerEvent: {}
+[1.341948] (-) TimerEvent: {}
+[1.444341] (-) TimerEvent: {}
+[1.546242] (-) TimerEvent: {}
+[1.648162] (-) TimerEvent: {}
+[1.749798] (-) TimerEvent: {}
+[1.855928] (-) TimerEvent: {}
+[1.959115] (-) TimerEvent: {}
+[2.063239] (-) TimerEvent: {}
+[2.165877] (-) TimerEvent: {}
+[2.269757] (-) TimerEvent: {}
+[2.371183] (-) TimerEvent: {}
+[2.483725] (-) TimerEvent: {}
+[2.585986] (-) TimerEvent: {}
+[2.687688] (-) TimerEvent: {}
+[2.789568] (-) TimerEvent: {}
+[2.871523] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[2.875058] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[2.876035] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saiubuntu/ros2_ws/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/home/saiubuntu/ros2_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saiubuntu'), ('SSH_AGENT_PID', '1579'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/saiubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'saiubuntu'), ('JOURNAL_STREAM', '8:44329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saiubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1617,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', '62eb1aca9f0244fabd796f861747f437'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/700acb4e_89e8_4564_a237_12c421292c8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saiubuntu/ros2_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy')]), 'shell': False}
+[2.900512] (-) TimerEvent: {}
+[3.008872] (-) TimerEvent: {}
+[3.115101] (-) TimerEvent: {}
+[3.217972] (-) TimerEvent: {}
+[3.320077] (-) TimerEvent: {}
+[3.427172] (-) TimerEvent: {}
+[3.532476] (-) TimerEvent: {}
+[3.633925] (-) TimerEvent: {}
+[3.735516] (-) TimerEvent: {}
+[3.837113] (-) TimerEvent: {}
+[3.940226] (-) TimerEvent: {}
+[4.041732] (-) TimerEvent: {}
+[4.143644] (-) TimerEvent: {}
+[4.245432] (-) TimerEvent: {}
+[4.351714] (-) TimerEvent: {}
+[4.453591] (-) TimerEvent: {}
+[4.558740] (-) TimerEvent: {}
+[4.659768] (-) TimerEvent: {}
+[4.760498] (-) TimerEvent: {}
+[4.861810] (-) TimerEvent: {}
+[4.962967] (-) TimerEvent: {}
+[5.065833] (-) TimerEvent: {}
+[5.167647] (-) TimerEvent: {}
+[5.269409] (-) TimerEvent: {}
+[5.332959] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[5.348844] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[5.351271] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saiubuntu/ros2_ws/build/sllidar_ros2', '--', '-j8', '-l8'], 'cwd': '/home/saiubuntu/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saiubuntu'), ('SSH_AGENT_PID', '1579'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/saiubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'saiubuntu'), ('JOURNAL_STREAM', '8:44329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saiubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1617,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', '62eb1aca9f0244fabd796f861747f437'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/700acb4e_89e8_4564_a237_12c421292c8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saiubuntu/ros2_ws/build/sllidar_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy')]), 'shell': False}
+[5.373753] (-) TimerEvent: {}
+[5.382903] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] Built target serial_motor_demo_msgs__cpp\n'}
+[5.385335] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[5.385973] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.386906] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[5.387375] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[5.388455] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.389794] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[5.391058] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.391855] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs\n'}
+[5.393266] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__py\n'}
+[5.394314] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] Built target serial_motor_demo_msgs__python\n'}
+[5.395465] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.396000] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[5.396531] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.402636] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[5.435320] (my_bot) CommandEnded: {'returncode': 0}
+[5.473942] (-) TimerEvent: {}
+[5.579555] (-) TimerEvent: {}
+[5.692809] (-) TimerEvent: {}
+[5.733517] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[5.797909] (-) TimerEvent: {}
+[5.823929] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saiubuntu/ros2_ws/build/my_bot'], 'cwd': '/home/saiubuntu/ros2_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saiubuntu'), ('SSH_AGENT_PID', '1579'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/saiubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'saiubuntu'), ('JOURNAL_STREAM', '8:44329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saiubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1617,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', '62eb1aca9f0244fabd796f861747f437'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/700acb4e_89e8_4564_a237_12c421292c8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saiubuntu/ros2_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy')]), 'shell': False}
+[5.898641] (-) TimerEvent: {}
+[5.921235] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.924770] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.931922] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/drive_bot.rviz\n'}
+[5.934286] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[5.943717] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[5.954277] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[5.954847] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/joystick.yaml\n'}
+[5.957548] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[5.958038] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[5.959005] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/nav2_params.yaml\n'}
+[5.959495] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/obstacles_setup.rviz\n'}
+[5.961746] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/twist_mux.yaml\n'}
+[5.964618] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[5.971280] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[5.973355] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/camera2.xacro\n'}
+[5.979921] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/depth_camera.xacro\n'}
+[5.982197] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[5.983960] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[5.985870] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros2.xacro\n'}
+[5.987046] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[5.990265] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/lidar2.xacro\n'}
+[5.991931] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[5.997328] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[5.998417] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core2.xacro\n'}
+[5.998892] (-) TimerEvent: {}
+[6.006226] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[6.008630] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/joystick.launch.py\n'}
+[6.015517] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[6.016960] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[6.023514] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/navigation_launch.py\n'}
+[6.024250] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/online_async_launch.py\n'}
+[6.024811] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py\n'}
+[6.025428] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[6.029264] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/box_table_obstacles.world\n'}
+[6.031027] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/closed_environment/model.config\n'}
+[6.036868] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/closed_environment/model.sdf\n'}
+[6.038374] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[6.050064] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/obstacles.world\n'}
+[6.055512] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/sample_model.sdf\n'}
+[6.059343] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/sample_model.world\n'}
+[6.061394] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/trail_environment/Untitled/model.config\n'}
+[6.063253] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/trail_environment/Untitled/model.sdf\n'}
+[6.065801] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/trail_environment/model.config\n'}
+[6.067055] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/trail_environment/sample_model.sdf\n'}
+[6.067435] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[6.067735] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[6.067967] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[6.068290] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[6.068623] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[6.068901] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[6.069161] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[6.069691] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[6.070027] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[6.070357] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[6.070704] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[6.099427] (-) TimerEvent: {}
+[6.146225] (sllidar_ros2) StdoutLine: {'line': b'[ 90%] Built target sllidar_node\n'}
+[6.200547] (-) TimerEvent: {}
+[6.221090] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[6.222995] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[6.237386] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[6.238471] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.xml\n'}
+[6.259740] (my_bot) CommandEnded: {'returncode': 0}
+[6.303580] (-) TimerEvent: {}
+[6.405398] (-) TimerEvent: {}
+[6.510182] (-) TimerEvent: {}
+[6.594666] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[6.610631] (-) TimerEvent: {}
+[6.710788] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[6.714494] (-) TimerEvent: {}
+[6.746253] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[6.806851] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[6.809387] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs'], 'cwd': '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saiubuntu'), ('SSH_AGENT_PID', '1579'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/saiubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'saiubuntu'), ('JOURNAL_STREAM', '8:44329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saiubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1617,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', '62eb1aca9f0244fabd796f861747f437'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/700acb4e_89e8_4564_a237_12c421292c8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy')]), 'shell': False}
+[6.819962] (-) TimerEvent: {}
+[6.906046] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.914191] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.916169] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[6.920045] (-) TimerEvent: {}
+[6.924012] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[6.928714] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[6.929198] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[6.929485] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[6.929773] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[6.930392] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[6.930760] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[6.931069] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[6.931964] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[6.932333] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[6.949501] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[6.950096] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[6.955975] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.960743] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[6.962070] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[6.964210] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[6.965127] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[6.965607] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[6.966286] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.970060] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.984123] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.989482] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.991769] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.003781] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.009398] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.024398] (-) TimerEvent: {}
+[7.029301] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[7.033560] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[7.038647] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[7.044308] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.061994] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[7.063417] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[7.063881] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[7.066185] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[7.070493] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[7.071444] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[7.072006] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[7.073044] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[7.081070] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[7.082111] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[7.082292] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[7.082542] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[7.082771] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[7.082973] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[7.083231] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[7.083735] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.084350] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.086300] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.086920] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.087220] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[7.087817] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[7.088510] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[7.119567] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[7.120018] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[7.120306] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[7.120566] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[7.120815] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.121089] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.121347] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.121769] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so\n'}
+[7.122027] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[7.122278] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[7.122525] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[7.123217] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[7.123806] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[7.124461] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[7.129995] (-) TimerEvent: {}
+[7.132516] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[7.135197] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[7.146085] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[7.146709] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[7.147765] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[7.156830] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[7.157847] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[7.158569] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[7.159254] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[7.159939] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[7.160210] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[7.232492] (-) TimerEvent: {}
+[7.251690] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[7.261507] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.269441] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.271372] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.271660] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.272421] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.275595] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.279334] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.283307] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[7.283762] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[7.284045] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[7.284406] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[7.289114] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.293191] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[7.296622] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.311584] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[7.333238] (-) TimerEvent: {}
+[7.435507] (-) TimerEvent: {}
+[7.539692] (-) TimerEvent: {}
+[7.612116] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[7.613060] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saiubuntu/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/saiubuntu/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'saiubuntu'), ('SSH_AGENT_PID', '1579'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/saiubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1473'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'saiubuntu'), ('JOURNAL_STREAM', '8:44329'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saiubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1617,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', '62eb1aca9f0244fabd796f861747f437'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/700acb4e_89e8_4564_a237_12c421292c8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/saiubuntu/ros2_ws/build/sllidar_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy')]), 'shell': False}
+[7.641446] (-) TimerEvent: {}
+[7.724396] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.726050] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.729151] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[7.729971] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[7.730643] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[7.731061] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[7.732289] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[7.732671] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[7.732999] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[7.735887] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[7.736956] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[7.738475] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[7.739727] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[7.740121] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[7.740489] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[7.742025] (-) TimerEvent: {}
+[7.744706] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[7.749041] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[7.780385] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[7.781171] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[7.781432] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[7.781700] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[7.782005] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.782262] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[7.782481] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[7.782685] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.782896] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.783070] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[7.783199] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[7.783320] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.783437] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.783597] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[7.783825] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[7.784071] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[7.784510] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[7.784748] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.784969] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[7.785180] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[7.785388] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[7.785592] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[7.785754] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[7.785873] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[7.785987] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[7.786120] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.786272] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.787455] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.791252] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.793866] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[7.795783] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[7.798883] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[7.806289] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[7.807025] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[7.818191] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[7.847665] (-) TimerEvent: {}
+[7.870105] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[7.872616] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.875045] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.877854] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[7.879134] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[7.892105] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[7.957682] (-) TimerEvent: {}
+[7.991271] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[8.063613] (-) TimerEvent: {}
+[8.166036] (-) TimerEvent: {}
+[8.268207] (-) TimerEvent: {}
+[8.373472] (-) TimerEvent: {}
+[8.478298] (-) TimerEvent: {}
+[8.580863] (-) TimerEvent: {}
+[8.683955] (-) TimerEvent: {}
+[8.731157] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[8.787030] (-) TimerEvent: {}
+[8.889134] (-) TimerEvent: {}
+[8.966078] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[8.974241] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[8.989289] (-) TimerEvent: {}
+[9.097541] (-) TimerEvent: {}
+[9.200767] (-) TimerEvent: {}
+[9.303027] (-) TimerEvent: {}
+[9.403908] (-) TimerEvent: {}
+[9.505735] (-) TimerEvent: {}
+[9.606883] (-) TimerEvent: {}
+[9.708573] (-) TimerEvent: {}
+[9.810114] (-) TimerEvent: {}
+[9.911238] (-) TimerEvent: {}
+[10.013395] (-) TimerEvent: {}
+[10.116634] (-) TimerEvent: {}
+[10.217991] (-) TimerEvent: {}
+[10.319650] (-) TimerEvent: {}
+[10.421608] (-) TimerEvent: {}
+[10.523858] (-) TimerEvent: {}
+[10.625946] (-) TimerEvent: {}
+[10.726683] (-) TimerEvent: {}
+[10.827983] (-) TimerEvent: {}
+[10.930038] (-) TimerEvent: {}
+[11.033588] (-) TimerEvent: {}
+[11.134934] (-) TimerEvent: {}
+[11.240178] (-) TimerEvent: {}
+[11.341407] (-) TimerEvent: {}
+[11.442732] (-) TimerEvent: {}
+[11.543557] (-) TimerEvent: {}
+[11.647454] (-) TimerEvent: {}
+[11.677316] (joy_tester) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/saiubuntu/ros2_ws/build/joy_tester/build', '--no-deps', 'symlink_data'], 'cwd': '/home/saiubuntu/ros2_ws/build/joy_tester', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'saiubuntu', 'SSH_AGENT_PID': '1579', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/saiubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1473', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/saiubuntu/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'saiubuntu', 'JOURNAL_STREAM': '8:44329', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saiubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1617,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1617', 'INVOCATION_ID': '62eb1aca9f0244fabd796f861747f437', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/700acb4e_89e8_4564_a237_12c421292c8c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saiubuntu/ros2_ws/build/joy_tester', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saiubuntu/ros2_ws/build/joy_tester/prefix_override:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_bot'}, 'shell': False}
+[11.711525] (my_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/saiubuntu/ros2_ws/build/my_robot/build', '--no-deps', 'symlink_data'], 'cwd': '/home/saiubuntu/ros2_ws/build/my_robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'saiubuntu', 'SSH_AGENT_PID': '1579', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/saiubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1473', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/saiubuntu/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'saiubuntu', 'JOURNAL_STREAM': '8:44329', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saiubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1617,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1617', 'INVOCATION_ID': '62eb1aca9f0244fabd796f861747f437', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/700acb4e_89e8_4564_a237_12c421292c8c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saiubuntu/ros2_ws/build/my_robot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saiubuntu/ros2_ws/build/my_robot/prefix_override:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_bot'}, 'shell': False}
+[11.747436] (-) TimerEvent: {}
+[11.853787] (-) TimerEvent: {}
+[11.957317] (-) TimerEvent: {}
+[12.058147] (-) TimerEvent: {}
+[12.160741] (-) TimerEvent: {}
+[12.263147] (-) TimerEvent: {}
+[12.364750] (-) TimerEvent: {}
+[12.469820] (-) TimerEvent: {}
+[12.572528] (-) TimerEvent: {}
+[12.676715] (-) TimerEvent: {}
+[12.782331] (-) TimerEvent: {}
+[12.897856] (-) TimerEvent: {}
+[13.000426] (-) TimerEvent: {}
+[13.100977] (-) TimerEvent: {}
+[13.201540] (-) TimerEvent: {}
+[13.302488] (-) TimerEvent: {}
+[13.417928] (-) TimerEvent: {}
+[13.518366] (-) TimerEvent: {}
+[13.619187] (-) TimerEvent: {}
+[13.721888] (-) TimerEvent: {}
+[13.829283] (-) TimerEvent: {}
+[13.910131] (joy_tester) StdoutLine: {'line': b'running develop\n'}
+[13.931444] (-) TimerEvent: {}
+[13.956365] (my_robot) StdoutLine: {'line': b'running develop\n'}
+[14.032348] (-) TimerEvent: {}
+[14.133247] (-) TimerEvent: {}
+[14.234145] (-) TimerEvent: {}
+[14.336845] (-) TimerEvent: {}
+[14.439311] (-) TimerEvent: {}
+[14.541280] (-) TimerEvent: {}
+[14.647820] (-) TimerEvent: {}
+[14.752723] (-) TimerEvent: {}
+[14.855747] (-) TimerEvent: {}
+[14.958463] (-) TimerEvent: {}
+[15.060836] (-) TimerEvent: {}
+[15.162707] (-) TimerEvent: {}
+[15.216578] (my_robot) StdoutLine: {'line': b'running egg_info\n'}
+[15.225315] (my_robot) StdoutLine: {'line': b'writing my_robot.egg-info/PKG-INFO\n'}
+[15.226850] (my_robot) StdoutLine: {'line': b'writing dependency_links to my_robot.egg-info/dependency_links.txt\n'}
+[15.227872] (my_robot) StdoutLine: {'line': b'writing entry points to my_robot.egg-info/entry_points.txt\n'}
+[15.228155] (my_robot) StdoutLine: {'line': b'writing requirements to my_robot.egg-info/requires.txt\n'}
+[15.228496] (my_robot) StdoutLine: {'line': b'writing top-level names to my_robot.egg-info/top_level.txt\n'}
+[15.241488] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/saiubuntu/ros2_ws/build/serial_motor_demo/build', '--no-deps', 'symlink_data'], 'cwd': '/home/saiubuntu/ros2_ws/build/serial_motor_demo', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'saiubuntu', 'SSH_AGENT_PID': '1579', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/saiubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1473', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/saiubuntu/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'saiubuntu', 'JOURNAL_STREAM': '8:44329', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saiubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/saiubuntu-Inspiron-5482:@/tmp/.ICE-unix/1617,unix/saiubuntu-Inspiron-5482:/tmp/.ICE-unix/1617', 'INVOCATION_ID': '62eb1aca9f0244fabd796f861747f437', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/700acb4e_89e8_4564_a237_12c421292c8c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/my_bot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saiubuntu/ros2_ws/build/serial_motor_demo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saiubuntu/ros2_ws/build/serial_motor_demo/prefix_override:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/my_bot'}, 'shell': False}
+[15.247290] (joy_tester) StdoutLine: {'line': b'running egg_info\n'}
+[15.247624] (joy_tester) StdoutLine: {'line': b'writing joy_tester.egg-info/PKG-INFO\n'}
+[15.257159] (joy_tester) StdoutLine: {'line': b'writing dependency_links to joy_tester.egg-info/dependency_links.txt\n'}
+[15.265742] (-) TimerEvent: {}
+[15.270441] (joy_tester) StdoutLine: {'line': b'writing entry points to joy_tester.egg-info/entry_points.txt\n'}
+[15.272902] (joy_tester) StdoutLine: {'line': b'writing requirements to joy_tester.egg-info/requires.txt\n'}
+[15.273563] (joy_tester) StdoutLine: {'line': b'writing top-level names to joy_tester.egg-info/top_level.txt\n'}
+[15.366908] (-) TimerEvent: {}
+[15.469303] (-) TimerEvent: {}
+[15.522077] (joy_tester) StdoutLine: {'line': b"reading manifest file 'joy_tester.egg-info/SOURCES.txt'\n"}
+[15.529606] (joy_tester) StdoutLine: {'line': b"writing manifest file 'joy_tester.egg-info/SOURCES.txt'\n"}
+[15.545667] (my_robot) StdoutLine: {'line': b"reading manifest file 'my_robot.egg-info/SOURCES.txt'\n"}
+[15.548006] (my_robot) StdoutLine: {'line': b"writing manifest file 'my_robot.egg-info/SOURCES.txt'\n"}
+[15.569651] (-) TimerEvent: {}
+[15.671161] (-) TimerEvent: {}
+[15.773611] (-) TimerEvent: {}
+[15.876005] (-) TimerEvent: {}
+[15.881763] (joy_tester) StdoutLine: {'line': b'running build_ext\n'}
+[15.883516] (joy_tester) StdoutLine: {'line': b'Creating /home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages/joy-tester.egg-link (link to .)\n'}
+[15.887965] (my_robot) StdoutLine: {'line': b'running build_ext\n'}
+[15.888822] (joy_tester) StdoutLine: {'line': b'Installing test_joy script to /home/saiubuntu/ros2_ws/install/joy_tester/lib/joy_tester\n'}
+[15.889298] (my_robot) StdoutLine: {'line': b'Creating /home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages/my-robot.egg-link (link to .)\n'}
+[15.890180] (joy_tester) StdoutLine: {'line': b'\n'}
+[15.890926] (joy_tester) StdoutLine: {'line': b'Installed /home/saiubuntu/ros2_ws/build/joy_tester\n'}
+[15.891401] (joy_tester) StdoutLine: {'line': b'running symlink_data\n'}
+[15.893010] (my_robot) StdoutLine: {'line': b'\n'}
+[15.893543] (my_robot) StdoutLine: {'line': b'Installed /home/saiubuntu/ros2_ws/build/my_robot\n'}
+[15.893803] (my_robot) StdoutLine: {'line': b'running symlink_data\n'}
+[15.984635] (-) TimerEvent: {}
+[16.086169] (-) TimerEvent: {}
+[16.160947] (joy_tester) CommandEnded: {'returncode': 0}
+[16.189967] (-) TimerEvent: {}
+[16.249888] (joy_tester) JobEnded: {'identifier': 'joy_tester', 'rc': 0}
+[16.258101] (my_robot) CommandEnded: {'returncode': 0}
+[16.290186] (-) TimerEvent: {}
+[16.359478] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 0}
+[16.390921] (-) TimerEvent: {}
+[16.491989] (-) TimerEvent: {}
+[16.595267] (-) TimerEvent: {}
+[16.697149] (-) TimerEvent: {}
+[16.799042] (-) TimerEvent: {}
+[16.901203] (-) TimerEvent: {}
+[17.003586] (-) TimerEvent: {}
+[17.105695] (-) TimerEvent: {}
+[17.206988] (-) TimerEvent: {}
+[17.309056] (-) TimerEvent: {}
+[17.410341] (-) TimerEvent: {}
+[17.512107] (-) TimerEvent: {}
+[17.613955] (-) TimerEvent: {}
+[17.714763] (-) TimerEvent: {}
+[17.816471] (-) TimerEvent: {}
+[17.918187] (-) TimerEvent: {}
+[18.018845] (-) TimerEvent: {}
+[18.120463] (-) TimerEvent: {}
+[18.176034] (serial_motor_demo) StdoutLine: {'line': b'running develop\n'}
+[18.220647] (-) TimerEvent: {}
+[18.321658] (-) TimerEvent: {}
+[18.423665] (-) TimerEvent: {}
+[18.525545] (-) TimerEvent: {}
+[18.627082] (-) TimerEvent: {}
+[18.728228] (-) TimerEvent: {}
+[18.829553] (-) TimerEvent: {}
+[18.931743] (-) TimerEvent: {}
+[19.032855] (-) TimerEvent: {}
+[19.133862] (-) TimerEvent: {}
+[19.235240] (-) TimerEvent: {}
+[19.336143] (-) TimerEvent: {}
+[19.436689] (-) TimerEvent: {}
+[19.537517] (-) TimerEvent: {}
+[19.639283] (-) TimerEvent: {}
+[19.738657] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[19.741140] (-) TimerEvent: {}
+[19.743221] (serial_motor_demo) StdoutLine: {'line': b'writing serial_motor_demo.egg-info/PKG-INFO\n'}
+[19.751134] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt\n'}
+[19.753480] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to serial_motor_demo.egg-info/entry_points.txt\n'}
+[19.755339] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to serial_motor_demo.egg-info/requires.txt\n'}
+[19.758521] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to serial_motor_demo.egg-info/top_level.txt\n'}
+[19.841573] (-) TimerEvent: {}
+[19.943885] (-) TimerEvent: {}
+[20.046251] (-) TimerEvent: {}
+[20.049877] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[20.059847] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[20.156759] (-) TimerEvent: {}
+[20.257698] (-) TimerEvent: {}
+[20.359717] (-) TimerEvent: {}
+[20.460768] (-) TimerEvent: {}
+[20.463630] (serial_motor_demo) StdoutLine: {'line': b'running build_ext\n'}
+[20.466530] (serial_motor_demo) StdoutLine: {'line': b'Creating /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)\n'}
+[20.479028] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[20.482124] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[20.485651] (serial_motor_demo) StdoutLine: {'line': b'\n'}
+[20.487494] (serial_motor_demo) StdoutLine: {'line': b'Installed /home/saiubuntu/ros2_ws/build/serial_motor_demo\n'}
+[20.488688] (serial_motor_demo) StdoutLine: {'line': b'running symlink_data\n'}
+[20.561305] (-) TimerEvent: {}
+[20.663775] (-) TimerEvent: {}
+[20.765277] (-) TimerEvent: {}
+[20.822143] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[20.870382] (-) TimerEvent: {}
+[20.892215] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 0}
+[20.901536] (-) EventReactorShutdown: {}

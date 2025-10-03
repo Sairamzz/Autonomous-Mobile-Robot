@@ -1,0 +1,26 @@
+[0.562s] Invoking command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saiubuntu/ros2_ws/build/serial_motor_demo/prefix_override:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/serial_motor_demo/build --no-deps symlink_data
+[0.780s] running develop
+[0.900s] running egg_info
+[0.900s] creating serial_motor_demo.egg-info
+[0.900s] writing serial_motor_demo.egg-info/PKG-INFO
+[0.900s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[0.900s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[0.901s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[0.901s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[0.902s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.930s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.930s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.961s] running build_ext
+[0.961s] Creating /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages/site.py
+[0.963s] Creating /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[0.964s] Installing driver script to /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.964s] Installing gui script to /home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.964s] 
+[0.964s] Installed /home/saiubuntu/ros2_ws/build/serial_motor_demo
+[0.964s] running symlink_data
+[0.965s] creating /home/saiubuntu/ros2_ws/install/serial_motor_demo/share/ament_index
+[0.965s] creating /home/saiubuntu/ros2_ws/install/serial_motor_demo/share/ament_index/resource_index
+[0.965s] creating /home/saiubuntu/ros2_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.965s] symbolically linking /home/saiubuntu/ros2_ws/build/serial_motor_demo/resource/serial_motor_demo -> /home/saiubuntu/ros2_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.965s] symbolically linking /home/saiubuntu/ros2_ws/build/serial_motor_demo/package.xml -> /home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo
+[0.996s] Invoked command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saiubuntu/ros2_ws/build/serial_motor_demo/prefix_override:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/serial_motor_demo/build --no-deps symlink_data

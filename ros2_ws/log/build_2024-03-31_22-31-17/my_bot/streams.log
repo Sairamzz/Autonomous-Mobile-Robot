@@ -1,0 +1,43 @@
+[0.058s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake /home/saiubuntu/ros2_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/my_bot
+[0.314s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.464s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.120s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.320s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.615s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.761s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.764s] -- Added test 'lint_cmake' to check CMake code style
+[1.789s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.808s] -- Added test 'xmllint' to check XML markup files
+[1.817s] -- Configuring done
+[1.887s] -- Generating done
+[1.889s] -- Build files have been written to: /home/saiubuntu/ros2_ws/build/my_bot
+[1.897s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake /home/saiubuntu/ros2_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/my_bot
+[1.905s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[2.037s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[2.193s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot
+[2.238s] -- Install configuration: ""
+[2.239s] -- Execute custom install script
+[2.240s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/empty.yaml
+[2.275s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[2.317s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[2.350s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[2.391s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[2.426s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[2.457s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[2.487s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/worlds/empty.world
+[2.510s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[2.548s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[2.597s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[2.642s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[2.687s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.sh
+[2.738s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/environment/path.dsv
+[2.797s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.bash
+[2.854s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.sh
+[2.892s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.zsh
+[2.932s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/local_setup.dsv
+[2.982s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv
+[3.057s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[3.128s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[3.207s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[3.279s] -- Symlinking: /home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.xml
+[3.398s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot

@@ -1,0 +1,16 @@
+[9.916s] Invoking command in '/home/saiubuntu/ros2_ws/build/my_robot': PYTHONPATH=/home/saiubuntu/ros2_ws/build/my_robot/prefix_override:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/my_robot/build --no-deps symlink_data
+[12.123s] running develop
+[13.462s] running egg_info
+[13.464s] writing my_robot.egg-info/PKG-INFO
+[13.465s] writing dependency_links to my_robot.egg-info/dependency_links.txt
+[13.466s] writing entry points to my_robot.egg-info/entry_points.txt
+[13.466s] writing requirements to my_robot.egg-info/requires.txt
+[13.466s] writing top-level names to my_robot.egg-info/top_level.txt
+[13.781s] reading manifest file 'my_robot.egg-info/SOURCES.txt'
+[13.818s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[14.134s] running build_ext
+[14.155s] Creating /home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages/my-robot.egg-link (link to .)
+[14.164s] 
+[14.164s] Installed /home/saiubuntu/ros2_ws/build/my_robot
+[14.165s] running symlink_data
+[14.426s] Invoked command in '/home/saiubuntu/ros2_ws/build/my_robot' returned '0': PYTHONPATH=/home/saiubuntu/ros2_ws/build/my_robot/prefix_override:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/my_robot/build --no-deps symlink_data

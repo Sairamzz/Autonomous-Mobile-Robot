@@ -1,0 +1,35 @@
+[0.088s] Invoking command in '/home/saiubuntu/ros2_ws/build/bimu_rgbd_camera': /usr/bin/cmake /home/saiubuntu/ros2_ws/src/bimu_rgbd_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/bimu_rgbd_camera
+[3.261s] -- The C compiler identification is GNU 9.4.0
+[5.391s] -- The CXX compiler identification is GNU 9.4.0
+[5.506s] -- Check for working C compiler: /usr/bin/cc
+[5.651s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.661s] -- Detecting C compiler ABI info
+[5.795s] -- Detecting C compiler ABI info - done
+[5.827s] -- Detecting C compile features
+[5.837s] -- Detecting C compile features - done
+[5.845s] -- Check for working CXX compiler: /usr/bin/c++
+[6.005s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.008s] -- Detecting CXX compiler ABI info
+[6.184s] -- Detecting CXX compiler ABI info - done
+[6.213s] -- Detecting CXX compile features
+[6.215s] -- Detecting CXX compile features - done
+[6.238s] CMake Error at CMakeLists.txt:6 (find_package):
+[6.238s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[6.238s]   asked CMake to find a package configuration file provided by "catkin", but
+[6.238s]   CMake did not find one.
+[6.238s] 
+[6.239s]   Could not find a package configuration file provided by "catkin" with any
+[6.239s]   of the following names:
+[6.239s] 
+[6.239s]     catkinConfig.cmake
+[6.239s]     catkin-config.cmake
+[6.239s] 
+[6.240s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[6.240s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[6.240s]   provides a separate development package or SDK, be sure it has been
+[6.240s]   installed.
+[6.240s] 
+[6.240s] 
+[6.240s] -- Configuring incomplete, errors occurred!
+[6.241s] See also "/home/saiubuntu/ros2_ws/build/bimu_rgbd_camera/CMakeFiles/CMakeOutput.log".
+[6.358s] Invoked command in '/home/saiubuntu/ros2_ws/build/bimu_rgbd_camera' returned '1': /usr/bin/cmake /home/saiubuntu/ros2_ws/src/bimu_rgbd_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/bimu_rgbd_camera

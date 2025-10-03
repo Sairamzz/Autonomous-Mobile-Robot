@@ -1,0 +1,21 @@
+[0.147s] Invoking command in '/home/saiubuntu/ros2_ws/build/bimu_rgbd_camera': /usr/bin/cmake /home/saiubuntu/ros2_ws/src/bimu_rgbd_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/bimu_rgbd_camera
+[1.209s] CMake Error at CMakeLists.txt:6 (find_package):
+[1.209s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.209s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.209s]   CMake did not find one.
+[1.209s] 
+[1.210s]   Could not find a package configuration file provided by "catkin" with any
+[1.210s]   of the following names:
+[1.210s] 
+[1.210s]     catkinConfig.cmake
+[1.210s]     catkin-config.cmake
+[1.210s] 
+[1.210s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.210s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.210s]   provides a separate development package or SDK, be sure it has been
+[1.211s]   installed.
+[1.211s] 
+[1.211s] 
+[1.211s] -- Configuring incomplete, errors occurred!
+[1.211s] See also "/home/saiubuntu/ros2_ws/build/bimu_rgbd_camera/CMakeFiles/CMakeOutput.log".
+[1.213s] Invoked command in '/home/saiubuntu/ros2_ws/build/bimu_rgbd_camera' returned '1': /usr/bin/cmake /home/saiubuntu/ros2_ws/src/bimu_rgbd_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/bimu_rgbd_camera

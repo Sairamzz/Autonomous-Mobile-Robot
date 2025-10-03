@@ -1,0 +1,1 @@
+Invoking command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/my_robot:/opt/ros/foxy /usr/bin/cmake /home/saiubuntu/ros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/saiubuntu/ros2_ws/install/sllidar_ros2

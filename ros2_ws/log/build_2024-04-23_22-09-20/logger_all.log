@@ -1,0 +1,459 @@
+[1.964s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.964s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9b48236160>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9b48236160>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9b48170ac0>)
+[3.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.824s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/saiubuntu/ros2_ws'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.953s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.954s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.957s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['ignore', 'ignore_ament_install']
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'ignore'
+[3.963s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'ignore_ament_install'
+[3.964s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['colcon_pkg']
+[3.964s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'colcon_pkg'
+[3.966s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['colcon_meta']
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'colcon_meta'
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extensions ['ros']
+[3.970s] Level 1:colcon.colcon_core.package_identification:_identify(joy_tester) by extension 'ros'
+[3.987s] DEBUG:colcon.colcon_core.package_identification:Package 'joy_tester' with type 'ros.ament_python' and name 'joy_tester'
+[3.988s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.988s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.988s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.990s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.999s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.002s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.005s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.006s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.010s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[4.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[4.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[4.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[4.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[4.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[4.016s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[4.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['ignore', 'ignore_ament_install']
+[4.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ignore'
+[4.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ignore_ament_install'
+[4.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['colcon_pkg']
+[4.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'colcon_pkg'
+[4.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['colcon_meta']
+[4.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'colcon_meta'
+[4.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extensions ['ros']
+[4.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot) by extension 'ros'
+[4.023s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot' with type 'ros.ament_python' and name 'my_robot'
+[4.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[4.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[4.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[4.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[4.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[4.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[4.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[4.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[4.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[4.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[4.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[4.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[4.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[4.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[4.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[4.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[4.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[4.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[4.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[4.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[4.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[4.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[4.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[4.037s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[4.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[4.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[4.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[4.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[4.049s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[4.051s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[4.055s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[4.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[4.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[4.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[4.059s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[4.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.062s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.488s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/saiubuntu/ros2_ws/install
+[4.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/foxy
+[4.537s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.201s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_args' from command line to 'None'
+[6.202s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target' from command line to 'None'
+[6.203s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.205s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_cache' from command line to 'False'
+[6.206s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_first' from command line to 'False'
+[6.208s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_force_configure' from command line to 'False'
+[6.210s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'ament_cmake_args' from command line to 'None'
+[6.210s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_cmake_args' from command line to 'None'
+[6.210s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.211s] DEBUG:colcon.colcon_core.verb:Building package 'joy_tester' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saiubuntu/ros2_ws/build/joy_tester', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saiubuntu/ros2_ws/install/joy_tester', 'merge_install': False, 'path': '/home/saiubuntu/ros2_ws/joy_tester', 'symlink_install': True, 'test_result_base': None}
+[6.216s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[6.217s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[6.217s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.217s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[6.217s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[6.218s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[6.218s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[6.218s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[6.218s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.218s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saiubuntu/ros2_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saiubuntu/ros2_ws/install/my_bot', 'merge_install': False, 'path': '/home/saiubuntu/ros2_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[6.219s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_args' from command line to 'None'
+[6.219s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target' from command line to 'None'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_clean_first' from command line to 'False'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'cmake_force_configure' from command line to 'False'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'ament_cmake_args' from command line to 'None'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[6.220s] Level 5:colcon.colcon_core.verb:set package 'my_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.220s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saiubuntu/ros2_ws/build/my_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saiubuntu/ros2_ws/install/my_robot', 'merge_install': False, 'path': '/home/saiubuntu/ros2_ws/src/my_robot', 'symlink_install': True, 'test_result_base': None}
+[6.224s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[6.224s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[6.224s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.225s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[6.225s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[6.225s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[6.225s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[6.225s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[6.225s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.225s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/saiubuntu/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[6.226s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[6.226s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[6.226s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.226s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[6.227s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.227s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saiubuntu/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saiubuntu/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/saiubuntu/ros2_ws/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[6.228s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[6.229s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.231s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[6.232s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[6.234s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[6.235s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[6.235s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[6.236s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.237s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saiubuntu/ros2_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saiubuntu/ros2_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/saiubuntu/ros2_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[6.240s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saiubuntu/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[6.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saiubuntu/ros2_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[6.284s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.340s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saiubuntu/ros2_ws/joy_tester' with build type 'ament_python'
+[6.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'ament_prefix_path')
+[6.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.ps1'
+[6.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.dsv'
+[6.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.sh'
+[6.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.459s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saiubuntu/ros2_ws/src/my_bot' with build type 'ament_cmake'
+[6.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saiubuntu/ros2_ws/src/my_bot'
+[6.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.506s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saiubuntu/ros2_ws/src/my_robot' with build type 'ament_python'
+[6.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'ament_prefix_path')
+[6.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/hook/ament_prefix_path.ps1'
+[6.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/hook/ament_prefix_path.dsv'
+[6.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/hook/ament_prefix_path.sh'
+[6.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.584s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saiubuntu/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[6.585s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saiubuntu/ros2_ws/src/sllidar_ros2'
+[6.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[8.874s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saiubuntu/ros2_ws/joy_tester'
+[8.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[11.402s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saiubuntu/ros2_ws/src/my_robot'
+[11.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/sllidar_ros2 -- -j8 -l8
+[11.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/my_bot -- -j8 -l8
+[11.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs -- -j8 -l8
+[12.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saiubuntu/ros2_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot
+[12.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[12.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saiubuntu/ros2_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/my_bot
+[12.846s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot' for CMake module files
+[12.850s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot' for CMake config files
+[12.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[12.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[12.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[12.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[12.882s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot/bin'
+[12.882s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[12.888s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot/lib/python3.8/site-packages'
+[12.888s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot/bin'
+[12.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.ps1'
+[12.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv'
+[12.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.sh'
+[12.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.bash'
+[13.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.zsh'
+[13.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saiubuntu/ros2_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[13.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs
+[13.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[13.345s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot' for CMake module files
+[13.346s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot' for CMake config files
+[13.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[13.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[13.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[13.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[13.363s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot/bin'
+[13.371s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[13.383s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot/lib/python3.8/site-packages'
+[13.385s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_bot/bin'
+[13.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.ps1'
+[13.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.dsv'
+[13.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.sh'
+[13.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.bash'
+[13.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_bot/share/my_bot/package.zsh'
+[13.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saiubuntu/ros2_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[13.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/saiubuntu/ros2_ws/build/sllidar_ros2 -- -j8 -l8
+[14.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/sllidar_ros2
+[14.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[14.625s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs' for CMake module files
+[14.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/serial_motor_demo_msgs
+[14.635s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs' for CMake config files
+[14.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[14.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[14.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[14.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[14.662s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib'
+[14.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[14.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[14.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[14.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[14.707s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/bin'
+[14.708s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[14.709s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[14.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[14.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[14.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[14.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[14.771s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/bin'
+[14.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[14.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[14.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[14.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[14.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[14.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[15.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[15.204s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2' for CMake module files
+[15.208s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2' for CMake config files
+[15.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saiubuntu/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saiubuntu/ros2_ws/install/serial_motor_demo:/home/saiubuntu/ros2_ws/install/my_robot:/home/saiubuntu/ros2_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/saiubuntu/ros2_ws/build/sllidar_ros2
+[15.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[15.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[15.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[15.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[15.250s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/lib'
+[15.253s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/bin'
+[15.253s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[15.258s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[15.267s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/bin'
+[15.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[15.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[15.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[15.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[15.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[15.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[15.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[15.757s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs' for CMake module files
+[15.777s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs' for CMake config files
+[15.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[15.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[15.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[15.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[15.794s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib'
+[15.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[15.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[15.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[15.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[15.826s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/bin'
+[15.827s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[15.830s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[15.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[15.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[15.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[15.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[15.859s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/bin'
+[15.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[15.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[15.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[15.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[15.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[15.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[15.876s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saiubuntu/ros2_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[15.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[15.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[15.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[15.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[15.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.931s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[15.932s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2' for CMake module files
+[15.934s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2' for CMake config files
+[15.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[15.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[15.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[15.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[15.953s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/lib'
+[15.954s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/bin'
+[15.957s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[15.962s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[15.967s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/sllidar_ros2/bin'
+[15.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[15.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[15.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[15.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[15.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[15.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saiubuntu/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[18.364s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saiubuntu/ros2_ws/src/serial_motor_demo/serial_motor_demo'
+[18.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saiubuntu/ros2_ws/build/my_robot': PYTHONPATH=/home/saiubuntu/ros2_ws/build/my_robot/prefix_override:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/my_robot/build --no-deps symlink_data
+[18.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saiubuntu/ros2_ws/build/joy_tester': PYTHONPATH=/home/saiubuntu/ros2_ws/build/joy_tester/prefix_override:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/joy_tester/build --no-deps symlink_data
+[22.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/my_bot PYTHONPATH=/home/saiubuntu/ros2_ws/build/serial_motor_demo/prefix_override:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/serial_motor_demo/build --no-deps symlink_data
+[24.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'pythonpath_develop')
+[24.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/build/my_robot/share/my_robot/hook/pythonpath_develop.ps1'
+[24.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/build/my_robot/share/my_robot/hook/pythonpath_develop.dsv'
+[24.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saiubuntu/ros2_ws/build/my_robot' returned '0': PYTHONPATH=/home/saiubuntu/ros2_ws/build/my_robot/prefix_override:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/my_robot/build --no-deps symlink_data
+[24.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/build/my_robot/share/my_robot/hook/pythonpath_develop.sh'
+[24.135s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_robot' for CMake module files
+[24.139s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_robot' for CMake config files
+[24.159s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_robot/lib'
+[24.160s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_robot/bin'
+[24.161s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_robot/lib/pkgconfig/my_robot.pc'
+[24.165s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages'
+[24.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot', 'pythonpath')
+[24.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/hook/pythonpath.ps1'
+[24.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/hook/pythonpath.dsv'
+[24.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/hook/pythonpath.sh'
+[24.211s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/my_robot/bin'
+[24.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot)
+[24.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/package.ps1'
+[24.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/package.dsv'
+[24.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/package.sh'
+[24.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/package.bash'
+[24.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/my_robot/share/my_robot/package.zsh'
+[24.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saiubuntu/ros2_ws/install/my_robot/share/colcon-core/packages/my_robot)
+[24.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath_develop')
+[24.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saiubuntu/ros2_ws/build/joy_tester' returned '0': PYTHONPATH=/home/saiubuntu/ros2_ws/build/joy_tester/prefix_override:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/joy_tester/build --no-deps symlink_data
+[24.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/build/joy_tester/share/joy_tester/hook/pythonpath_develop.ps1'
+[24.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/build/joy_tester/share/joy_tester/hook/pythonpath_develop.dsv'
+[24.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/build/joy_tester/share/joy_tester/hook/pythonpath_develop.sh'
+[24.335s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/joy_tester' for CMake module files
+[24.337s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/joy_tester' for CMake config files
+[24.350s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/joy_tester/lib'
+[24.354s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/joy_tester/bin'
+[24.355s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/joy_tester/lib/pkgconfig/joy_tester.pc'
+[24.356s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages'
+[24.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath')
+[24.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/hook/pythonpath.ps1'
+[24.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/hook/pythonpath.dsv'
+[24.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/hook/pythonpath.sh'
+[24.376s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/joy_tester/bin'
+[24.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_tester)
+[24.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/package.ps1'
+[24.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/package.dsv'
+[24.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/package.sh'
+[24.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/package.bash'
+[24.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/joy_tester/share/joy_tester/package.zsh'
+[24.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saiubuntu/ros2_ws/install/joy_tester/share/colcon-core/packages/joy_tester)
+[27.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[27.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[27.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[27.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[27.366s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo' for CMake module files
+[27.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saiubuntu/ros2_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs:/home/saiubuntu/ros2_ws/install/sllidar_ros2:/home/saiubuntu/ros2_ws/install/my_bot PYTHONPATH=/home/saiubuntu/ros2_ws/build/serial_motor_demo/prefix_override:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/serial_motor_demo:/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/my_robot:/home/saiubuntu/ros2_ws/install/my_robot/lib/python3.8/site-packages:/home/saiubuntu/ros2_ws/build/joy_tester:/home/saiubuntu/ros2_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/saiubuntu/ros2_ws/build/serial_motor_demo/build --no-deps symlink_data
+[27.379s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo' for CMake config files
+[27.386s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib'
+[27.388s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo/bin'
+[27.390s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[27.393s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo/lib/python3.8/site-packages'
+[27.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[27.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[27.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[27.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[27.404s] Level 1:colcon.colcon_core.environment:checking '/home/saiubuntu/ros2_ws/install/serial_motor_demo/bin'
+[27.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[27.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[27.416s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[27.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[27.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[27.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[27.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saiubuntu/ros2_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[27.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.460s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.538s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.538s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.538s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.745s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saiubuntu/ros2_ws/install/local_setup.ps1'
+[27.781s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saiubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[27.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saiubuntu/ros2_ws/install/setup.ps1'
+[27.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saiubuntu/ros2_ws/install/local_setup.sh'
+[27.850s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saiubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[27.860s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saiubuntu/ros2_ws/install/setup.sh'
+[27.865s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saiubuntu/ros2_ws/install/local_setup.bash'
+[27.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saiubuntu/ros2_ws/install/setup.bash'
+[27.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saiubuntu/ros2_ws/install/local_setup.zsh'
+[27.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saiubuntu/ros2_ws/install/setup.zsh'
